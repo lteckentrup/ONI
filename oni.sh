@@ -1,7 +1,7 @@
 mkdir ONI
 
 ### Merge sincle years and select sea surface temperature from file
-cdo mergetime ersst.v5* ersst.v5.1971-2015.nc
+cdo mergetime raw_data/ersst.v5* ersst.v5.1971-2015.nc
 cdo selvar,sst ersst.v5.1971-2015.nc ONI/SST_1971-2015.nc
 
 ### Select Nino3.4 region
