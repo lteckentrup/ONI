@@ -58,4 +58,4 @@ rm ONI/SST_1971-2015.nc
 rm ONI/SST_1971-2015_nino34.nc
 rm ONI/climatology.nc
 rm ONI/SST_anomaly.nc
-#rm ersst.v5.1971-2015.nc
+rm ersst.v5.1971-2015.nc
